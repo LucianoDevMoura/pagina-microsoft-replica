@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    outline: none;
+    border: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.wrapper .cabecalho{
+    font-size: 13px;
+    padding: 10px 0;
+    height: 54px;
+}
+
+.wrapper .navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper{
+    .cabecalho{
+        .menu-resp{
+            display: none;
+        }
+    }
+}
+
+.content-logos{
+    .carrosel-mobile{
+        display: none;
+    }
+}
+
+.slide {
+    .carrosel-mobile{
+        display: none;
+    }
+}
+
+.wrapper .navegacao .logo-content{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .navegacao .logo-content .nav-lista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper .navegacao .logo-content .nav-lista li a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .navegacao .nav-lista{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+}
+
+.wrapper .navegacao .nav-lista li a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .navegacao .logo-content .nav-lista li a:hover, .wrapper .navegacao .nav-lista li a:hover{
+    text-decoration: underline;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items{
+    position: absolute;
+    top: 20% ;
+    width: 35%;
+    margin-left: 7%;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items p{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items button{
+    border: 0;
+    outline: none;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items .link{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(0,103,184) ;
+    padding: 10px 30px;
+}
+
+section #carouselExample .carousel-inner .carousel-item .content-items a{
+    color: #000;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+section #carouselExample .carousel-control-prev #icon-prev{
+    margin-right: 100px;
+}
+
+/*  seção logos */
+
+
+.content-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.content-logo img{
+    width: 40px;
+}
+
+.content-logo .text-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* seção cards */
+
+.cards-games {
+    margin-bottom: 110px;
+    display: flex;
+    gap: 20px;
+}
+
+.cards-games .cards-conteudo{
+    width: 360px;
+    height: 460px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.264);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards-games .cards-conteudo img{
+    width: 100%;
+}
+
+.cards-games .cards-conteudo .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-games .cards-conteudo .text h3{
+    font-weight: bold;
+    margin: 25px 0 10px;
+    margin-left: 4%;
+}
+
+.cards-games .cards-conteudo .text p{
+    color: #000;
+    margin-left: 4%;
+    font-size: 14px;
+}
+
+.cards-games .cards-conteudo .botao{
+    width: 250px;
+    margin: 0 0 6% 4%;
+}
+
+.cards-games .cards-conteudo .comprar{
+    text-decoration: none;
+    background-color: #0067b8;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* seção banner */
+
+.wrapper .banner{
+    position: relative;
+}
+
+.wrapper .banner img{
+    width: 100%;
+}
+
+.wrapper .banner .banner-text{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 450px;
+    background-color: #fff;
+    padding: 4%;
+}
+
+.wrapper .banner .banner-text h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.wrapper .banner .banner-text p{
+    margin-bottom: 30px;
+}
+
+.wrapper .banner .banner-text .comprar{
+    text-decoration: none;
+    background-color: #0067b8;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.content-logos{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.content-logos .sub-negocios{
+    margin: 40px 0 10px;
+}
+
+/* sociais */
+
+.sociais{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 120px;
+    align-items: center;
+
+    img{
+        width: 30px;
+    }
+
+    h3{
+        color: #000000c2;
+        font-weight: 600;
+    }
+}
+
+footer{
+    background-color: #00000013;
+    width: 100%;
+
+    .listas-det{
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        width: 100%;
+        gap: 50px;
+        margin: auto;
+
+        ul {
+            h4{
+                color: #00000085;
+            }
+            li{
+                color: rgba(0, 0, 0, 0.486);
+                font-size: 11px;
+                line-height: 28px;
+                cursor: pointer;
+            } 
+        }
+    }
+}
+
+footer{
+    p{
+        padding: 20px;
+        color: #000000;
+        text-align: center;
+        a{
+            color: #082b46;
+        }
+    }
+}
+
+// Tablet 
+
+@media screen and (max-width: 830px ) {
+    
+    .wrapper{
+        .cabecalho{
+            .nav-lista{
+                li a{
+                    font-size: 1.1rem;
+                }
+            }
+
+            .menu-resp{
+                display: block;
+            }
+
+            .nav-lista{
+                display: none;
+            }
+
+            .dropdown-menu{
+                background-color: #000000bd;
+
+                li{
+                    margin-bottom: 10px;
+                    padding: 10px 30px;
+
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                    }
+                    a:hover{
+                        color:#0067b8;
+                    }
+                }
+            }
+        }
+        // carrousel
+        .slide{
+            .carrosel-pc{
+                display: none;
+            }
+
+            .carrosel-mobile{
+                display: block;
+            }
+        }
+    
+        #carouselExample .carousel-inner .carousel-item .content-items{
+            position: static;
+            width: 100%;
+            height: 320px;
+            margin: 0;
+            padding: 5%;
+        }
+        // cards
+
+        .cards-games{
+            flex-wrap: wrap;
+            justify-content: center;
+
+            
+            .cards-conteudo{
+                p{
+                    font-size: 1.1rem;
+                }
+
+                .botao{
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .sub-negocios{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        // banner
+        .banner{
+            .banner-text{
+                position: static;
+                width: 100%;
+                h2{
+                    font-size: 2.3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .sociais{
+            justify-content: center;
+        }
+
+        // footer
+        footer{
+            .listas-det{
+                flex-direction: column;
+
+                li{
+                    font-size: 1.1rem;
+                    line-height: 34px;
+                }
+            }
+        }
+    }     
+}
+
+// mobile
+@media screen and (max-width: 480px){
+
+    .wrapper{
+        .cabecalho{
+            .navegacao{
+                .nav-lista{
+                    display: none;
+                }
+                .menu-resp{
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    section{
+        .slide{
+            .carrosel-pc{
+                display: none;
+            }
+
+            .carrosel-mobile{
+                display: block;
+            }
+        }
+
+        #carouselExample .carousel-inner .carousel-item .content-items{
+            position: static;
+            width: 90%;
+            height: 290px;
+            
+            h2{
+                font-size: 1.5rem ;
+                margin: 20px 0;
+            }
+
+            a{
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+    .content-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-games{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 2%;
+
+        .cards-conteudo{ 
+            .botao{
+                display: block;
+                width: auto;
+                text-align: center;
+            }
+        }
+    }
+
+    .content-logos{
+        .sub-negocios{
+            text-align: center;
+        }
+        .banner{
+            .carrosel-pc{
+                display: none;
+            }
+            .banner-text{
+                position: static;
+                width: 100%;
+                text-align: center;
+
+                h2{
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+    
+    .sociais{
+        flex-direction: column;
+        img{
+            width: 60px;
+            cursor: pointer;
+        }
+    }
+
+    footer{
+        .listas-det{
+            flex-direction: column;
+        }
+    }
+}
